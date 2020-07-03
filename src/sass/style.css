@@ -1,0 +1,527 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 100%;
+}
+
+i, em {
+  font-style: normal;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.con {
+  margin: 0 auto;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+#top {
+  width: 100%;
+  height: 90px;
+  position: fixed;
+  z-index: 999;
+}
+
+#top .conest {
+  width: 1280px;
+  height: 90px;
+}
+
+#top .conest .left {
+  float: left;
+  width: 200px;
+}
+
+#top .conest .left img {
+  width: 93px;
+  height: 42px;
+  margin: 20px 40px;
+}
+
+#top .conest .center {
+  height: 40px;
+  width: 400px;
+  margin-top: 23px;
+  padding: 3px 12px 3px 60px;
+  float: left;
+  background: #FFFFFF;
+  border-radius: 5px;
+  background: #f0ebeb;
+  box-sizing: border-box;
+  display: none;
+  position: relative;
+}
+
+#top .conest .center .iconfont {
+  position: absolute;
+  left: 25px;
+  height: 18px;
+}
+
+#top .conest .center input {
+  border: none;
+  outline: none;
+  height: 100%;
+  width: 100%;
+  background: #f0ebeb;
+  font-size: 16px;
+  color: #000;
+}
+
+#top .conest .right {
+  float: right;
+  margin: 0 30px 0 0;
+}
+
+#top .conest .right > ul {
+  height: 90px;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+
+#top .conest .right > ul li {
+  float: left;
+  list-style: none;
+  text-decoration: none;
+}
+
+#top .conest .right > ul li a {
+  text-decoration: none;
+  padding: 8px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+#top .conest .right > ul li .sell {
+  width: 30px;
+  padding: 5px 20px;
+  font-weight: bolder;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+}
+
+#top .conest .right > ul i {
+  height: 38px;
+  width: 140px;
+  background: #ffffff;
+  line-height: 38px;
+  padding: 0 3px;
+  text-indent: 10px;
+  color: #505050;
+  font-weight: bolder;
+  box-sizing: border-box;
+  display: block;
+}
+
+#top .conest .right > ul i:hover {
+  border-right: 3px solid #65941f;
+  background: #dbdada;
+}
+
+#top .conest .right > ul .look {
+  position: relative;
+}
+
+#top .conest .right > ul .look:hover .looks {
+  display: block;
+}
+
+#top .conest .right > ul .looks {
+  position: absolute;
+  width: 140px;
+  top: 28px;
+  right: 0;
+  display: none;
+}
+
+#top .conest .right > ul .looks .watch .watchs, #top .conest .right > ul .looks .watch .sneakers, #top .conest .right > ul .looks .sneaker .watchs, #top .conest .right > ul .looks .sneaker .sneakers {
+  border-left: 1px solid black;
+  position: absolute;
+  left: 140px;
+  top: 0;
+  display: none;
+}
+
+#top .conest .right > ul .looks .sneaker:hover .sneakers, #top .conest .right > ul .looks .watch:hover .watchs {
+  display: block;
+}
+
+#top .conest .right > ul .about {
+  position: relative;
+}
+
+#top .conest .right > ul .about:hover .abouts {
+  display: block;
+}
+
+#top .conest .right > ul .abouts {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  display: none;
+}
+
+#banner {
+  width: 100%;
+  height: 480px;
+  background: #464936;
+}
+
+#banner .conest {
+  width: 1480px;
+  height: 480px;
+  background: url("../imgs/banner.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+
+#banner .conest .center {
+  text-align: center;
+  padding-top: 90px;
+}
+
+#banner .conest .center h1 {
+  height: 66px;
+  width: 100%;
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+#banner .conest .center em {
+  display: inline-block;
+  height: 70px;
+  padding: 8px;
+  background: #010101;
+  margin: 0 auto;
+  color: #FFFFFF;
+  font-size: 50px;
+  margin: 5px auto;
+}
+
+#banner .conest .center .ser {
+  height: 38px;
+  width: 450px;
+  margin: 10px auto;
+  background: #ffffff;
+  padding: 6px 12px 6px 60px;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+#banner .conest .center .ser input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+#nav {
+  height: 52px;
+  width: 100%;
+  border-bottom: 1px solid #cccccc;
+}
+
+#nav .conest {
+  width: 760px;
+  height: 52px;
+}
+
+#nav .conest ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav .conest ul li {
+  list-style: none;
+  float: left;
+}
+
+#nav .conest ul li a {
+  text-decoration: none;
+  color: #010101;
+  font-weight: bolder;
+  display: inline-block;
+  margin-top: 14px;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+#nav .conest ul .active {
+  border-bottom: 5px solid #010110;
+}
+
+#swiper {
+  width: 100%;
+  height: 190px;
+}
+
+#swiper img {
+  height: 180px;
+  width: 100%;
+}
+
+#swiper .swiper-pagination {
+  width: 100%;
+  height: 20px;
+}
+
+#swiper .swiper-pagination-bullet {
+  margin: 0 8px;
+}
+
+#swiper .swiper-pagination-bullet-active {
+  height: 8px;
+  width: 20px;
+  border-radius: 3px;
+  background: #010100;
+}
+
+#list {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+}
+
+#list .conest {
+  width: 1170px;
+  background: #ffffff;
+}
+
+#list .conest .header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  padding: 0 8px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+#list .conest .header span {
+  font-size: 18px;
+}
+
+#list .conest .header span:nth-child(2) {
+  color: #08a05c;
+}
+
+#list .conest .brand {
+  width: 100%;
+  height: 188px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 8px;
+}
+
+#list .conest .brand li a {
+  display: block;
+  width: 273px;
+  height: 188px;
+  float: left;
+  position: relative;
+}
+
+#list .conest .brand li a img:nth-child(1) {
+  height: 100%;
+  width: 100%;
+}
+
+#list .conest .brand li a img:nth-child(2) {
+  position: absolute;
+  top: 0;
+  right: 30px;
+  height: 56px;
+  width: 56px;
+}
+
+#list .conest .price, #list .conest .lowest {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 8px;
+}
+
+#list .conest .price li a, #list .conest .lowest li a {
+  background: #FAFAFA;
+  width: 215px;
+  height: 300px;
+  float: left;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+#list .conest .price li a img, #list .conest .lowest li a img {
+  width: 100%;
+}
+
+#list .conest .price li a .prices, #list .conest .lowest li a .prices {
+  margin-top: 16px;
+  width: 100%;
+  height: 120px;
+}
+
+#list .conest .price li a .prices h2, #list .conest .lowest li a .prices h2 {
+  width: 100%;
+  height: 38px;
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+#list .conest .price li a .prices h3, #list .conest .price li a .prices h5, #list .conest .lowest li a .prices h3, #list .conest .lowest li a .prices h5 {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#list .conest .price li a .prices h4, #list .conest .lowest li a .prices h4 {
+  font-size: 22px;
+  font-weight: bolder;
+  color: #000000;
+}
+
+#more {
+  height: 72px;
+  width: 402px;
+  margin: 42px auto;
+  background: #08A05C;
+  border-radius: 5px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 72px;
+}
+
+#more a {
+  color: #ffffff;
+}
+
+#foot {
+  width: 100%;
+  height: 310px;
+  background: #3D3D3D;
+  padding: 20px 0 0;
+  box-sizing: border-box;
+}
+
+#foot .conest {
+  height: 240px;
+  width: 100%;
+  border-bottom: 1px solid #cccccc;
+  padding: 14px 0 0;
+  box-sizing: border-box;
+}
+
+#foot .conest .uls {
+  height: 195px;
+  width: 1140px;
+}
+
+#foot .conest .uls li:nth-child(1) a {
+  font-size: 13px;
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+#foot .conest .uls li a {
+  font-size: 12px;
+  color: #808080;
+}
+
+#foot .conest .uls li:hover a {
+  color: #08A05C;
+}
+
+#foot .conest .uls .news {
+  float: left;
+  height: 170px;
+  width: 120;
+}
+
+#foot .conest .uls .hot {
+  float: left;
+  margin-left: 100px;
+  height: 170px;
+  width: 120;
+}
+
+#foot .conest .uls .jordan {
+  float: left;
+  margin-left: 80px;
+  height: 170px;
+  width: 120;
+}
+
+#foot .conest .uls .adidas {
+  float: left;
+  margin-left: 100px;
+  height: 170px;
+  width: 120;
+}
+
+#foot .conest .uls .nike {
+  float: left;
+  margin-left: 80px;
+  height: 170px;
+  width: 120;
+}
+
+#foot .conest .uls .shoes {
+  float: left;
+  margin-left: 80px;
+  height: 170px;
+  width: 120;
+}
+
+#move {
+  position: fixed;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  background: #252525;
+  z-index: 999;
+}
+
+#move .conest {
+  width: 1800px;
+  height: 40px;
+  position: relative;
+}
+
+#move .conest .move {
+  position: absolute;
+  left: 1200px;
+  height: 40px;
+  width: 4000px;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+
+#move .conest .move a {
+  margin-right: 50px;
+}
+
+#move .conest .move a span:nth-child(1) {
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+#move .conest .move a p {
+  display: inline-block;
+}

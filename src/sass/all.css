@@ -1,0 +1,359 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 100%;
+}
+
+i, em {
+  font-style: normal;
+}
+
+.con {
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+#top {
+  width: 100%;
+  height: 90px;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  background: #ffffff;
+  box-shadow: 0px 28px 30px -28px #cccccc;
+}
+
+#top .conest {
+  width: 1280px;
+  height: 90px;
+}
+
+#top .conest .left {
+  float: left;
+  width: 200px;
+}
+
+#top .conest .left img {
+  width: 93px;
+  height: 42px;
+  margin: 20px 40px;
+}
+
+#top .conest .center {
+  height: 40px;
+  width: 400px;
+  margin-top: 23px;
+  padding: 3px 12px 3px 60px;
+  float: left;
+  background: #faf9f9;
+  border-radius: 5px;
+  background: #f3f2f2;
+  box-sizing: border-box;
+  position: relative;
+}
+
+#top .conest .center i {
+  position: absolute;
+  left: 25px;
+  top: 12px;
+}
+
+#top .conest .center input {
+  border: none;
+  outline: none;
+  height: 100%;
+  width: 100%;
+  background: #f3f2f2;
+  font-size: 16px;
+  color: #000;
+}
+
+#top .conest .right {
+  float: right;
+  margin: 0 30px 0 0;
+}
+
+#top .conest .right > ul {
+  height: 90px;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+
+#top .conest .right > ul li {
+  float: left;
+  list-style: none;
+  text-decoration: none;
+}
+
+#top .conest .right > ul li a {
+  text-decoration: none;
+  padding: 8px;
+  color: #010110;
+  font-size: 16px;
+}
+
+#top .conest .right > ul li .sell {
+  width: 30px;
+  padding: 5px 20px;
+  font-weight: bolder;
+  border: 2px solid #010110;
+  border-radius: 20px;
+}
+
+#top .conest .right > ul i {
+  height: 38px;
+  width: 140px;
+  background: #ffffff;
+  line-height: 38px;
+  padding: 0 3px;
+  text-indent: 10px;
+  color: #505050;
+  font-weight: bolder;
+  box-sizing: border-box;
+  display: block;
+}
+
+#top .conest .right > ul i:hover {
+  border-right: 3px solid #65941f;
+  background: #dbdada;
+}
+
+#top .conest .right > ul .look {
+  position: relative;
+}
+
+#top .conest .right > ul .look:hover .looks {
+  display: block;
+}
+
+#top .conest .right > ul .looks {
+  position: absolute;
+  width: 140px;
+  top: 28px;
+  right: 0;
+  display: none;
+  border: 1px solid #e9e4e4;
+  box-shadow: 4px 4px 10px #cccccc;
+}
+
+#top .conest .right > ul .looks .watch .watchs, #top .conest .right > ul .looks .watch .sneakers, #top .conest .right > ul .looks .sneaker .watchs, #top .conest .right > ul .looks .sneaker .sneakers {
+  border: 1px solid #e9e4e4;
+  box-shadow: 4px 4px 10px #cccccc;
+  position: absolute;
+  left: 140px;
+  top: 0;
+  display: none;
+}
+
+#top .conest .right > ul .looks .sneaker:hover .sneakers, #top .conest .right > ul .looks .watch:hover .watchs {
+  display: block;
+}
+
+#top .conest .right > ul .about {
+  position: relative;
+}
+
+#top .conest .right > ul .about:hover .abouts {
+  display: block;
+}
+
+#top .conest .right > ul .abouts {
+  border: 1px solid #e9e4e4;
+  box-shadow: 4px 4px 10px #cccccc;
+  position: absolute;
+  top: 28px;
+  left: 0;
+  display: none;
+}
+
+#banner {
+  height: 270px;
+  width: 1090px;
+  margin: 90px auto;
+  margin-bottom: 0;
+}
+
+#banner img {
+  height: 100%;
+  width: 100%;
+}
+
+#conest {
+  width: 1090px;
+  margin: 0 auto;
+  height: 300px;
+  margin-top: 30px;
+}
+
+#conest .left {
+  width: 195px;
+  height: 100%;
+  float: left;
+}
+
+#conest .right {
+  width: 866px;
+  height: auto;
+  float: right;
+}
+
+#conest .right .hidd-xs {
+  width: 100%;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#conest .right .hidd-xs li {
+  float: left;
+}
+
+#conest .right .hidd-xs .biaoti li {
+  font-size: 12px;
+  color: #666666;
+}
+
+#conest .right .hidd-xs .biaoti li a {
+  color: #666666;
+  padding: 0 5px;
+}
+
+#conest .right .hidd-xs .caozuo li {
+  height: 25px;
+  width: 72px;
+  border: 1px solid #010110;
+  border-radius: 30px;
+  font-size: 13px;
+  text-align: center;
+  line-height: 25px;
+  margin-right: 10px;
+  font-weight: bolder;
+}
+
+#conest .right .header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  padding: 0 8px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+#conest .right .header span {
+  font-size: 18px;
+}
+
+#conest .right .header span:nth-child(2) {
+  color: #08a05c;
+}
+
+#conest .right .price {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+#conest .right .price li a {
+  background: #FAFAFA;
+  width: 170px;
+  height: 255px;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#conest .right .price li a img {
+  width: 100%;
+}
+
+#conest .right .price li a .prices {
+  margin-top: 16px;
+  width: 100%;
+  height: 120px;
+}
+
+#conest .right .price li a .prices h2 {
+  width: 100%;
+  height: 38px;
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+#conest .right .price li a .prices h3, #conest .right .price li a .prices h5 {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#conest .right .price li a .prices h4 {
+  font-size: 22px;
+  font-weight: bolder;
+  color: #000000;
+}
+
+#conest .right .all {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+#conest .right .all li a {
+  background: #FAFAFA;
+  width: 170px;
+  height: 255px;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+#conest .right .all li a img {
+  width: 100%;
+}
+
+#conest .right .all li a .prices {
+  margin-top: 16px;
+  width: 100%;
+  height: 120px;
+}
+
+#conest .right .all li a .prices h2 {
+  width: 100%;
+  height: 38px;
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+#conest .right .all li a .prices h3, #conest .right .all li a .prices h5 {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#conest .right .all li a .prices h4 {
+  font-size: 22px;
+  font-weight: bolder;
+  color: #000000;
+}
